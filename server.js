@@ -1,17 +1,16 @@
 'use strict';
 const express     = require('express');
 const bodyParser  = require('body-parser');
-const bcrypt = require('bcrypt'); 
-const fccTesting = require('./freecodecamp/fcctesting.js'); // LÍNEA 6 (Esta puede variar, pero debe quedar debajo)
-const app = express(); // LÍNEA 7 (Esta puede variar)
+const fccTesting = require('./freecodecamp/fcctesting.js'); 
+const app = express(); 
+const bcrypt = require('bcrypt');
 
 fccTesting(app);
 const saltRounds = 12;
 const myPlaintextPassword = 'sUperpassw0rd!';
 const someOtherPlaintextPassword = 'pass123';
 
-//Prueba de que funciona (no lo pide FCC):
-app.get('/', (req, res) => {res.send("Hell-o, World!!")});
+
 
 
 //START_ASYNC -do not remove notes, place code between correct pair of notes.
