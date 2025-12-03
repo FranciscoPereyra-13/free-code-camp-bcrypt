@@ -11,7 +11,7 @@ const saltRounds = 12;
 const myPlaintextPassword = 'sUperpassw0rd!';
 const someOtherPlaintextPassword = 'pass123';
 
-app.get('/', (req, res) => {res.send("Hell-o World!")});
+app.get('/', (req, res) => {res.send("Hell-o, World!")});
 
 
 //START_ASYNC -do not remove notes, place code between correct pair of notes.
