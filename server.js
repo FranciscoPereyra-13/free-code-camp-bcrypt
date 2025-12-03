@@ -1,10 +1,11 @@
 'use strict';
 const express     = require('express');
 const bodyParser  = require('body-parser');
-const bcrypt = require('bcrypt');
-const app         = express();
+const bcrypt = require('bcrypt'); 
+const fccTesting = require('./freecodecamp/fcctesting.js'); // LÍNEA 6 (Esta puede variar, pero debe quedar debajo)
+const app = express(); // LÍNEA 7 (Esta puede variar)
 
-//fccTesting(app);
+fccTesting(app);
 const saltRounds = 12;
 const myPlaintextPassword = 'sUperpassw0rd!';
 const someOtherPlaintextPassword = 'pass123';
