@@ -1,4 +1,7 @@
 'use strict';
+
+console.log("🔥 ESTE ES MI REPO REAL (infosec-free-code-camp-app) 🔥");
+
 const express     = require('express');
 const bodyParser  = require('body-parser');
 const fccTesting  = require('./freeCodeCamp/fcctesting.js');
@@ -16,7 +19,6 @@ app.get('/', (req, res) => {
   res.send('OK');
 });
 
-console.log("🔥 FCC SHOULD SEE THIS - bcrypt test");
 
 //START_ASYNC -do not remove notes, place code between correct pair of notes.
 
