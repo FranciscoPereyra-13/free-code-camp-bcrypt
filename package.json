@@ -1,5 +1,5 @@
 {
-  "name": "fcc-advanced-node-and-express",
+  "name": "FCC-Advanced-Node-and-Express",
   "author": "http://github.com/JosephLivengood",
   "version": "0.0.1",
   "description": "What am I about?",
@@ -8,10 +8,10 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "bcrypt": "^5.1.1",
-    "body-parser": "^1.20.2",
+    "bcrypt": "5.0.1",
+    "body-parser": "^1.16.0",
     "cors": "^2.8.1",
-    "express": "^4.18.2",
+    "express": "^4.14.1",
     "helmet": "^3.4.0",
     "mongodb": "^2.2.22"
   },

@@ -1,33 +1,12 @@
 'use strict';
-
-console.log("FCC URL CHECK -", process.env.RENDER_EXTERNAL_URL || "local");
-
-console.log("🔥 ESTE ES MI REPO REAL (infosec-free-code-camp-app) 🔥");
-
 const express     = require('express');
 const bodyParser  = require('body-parser');
 const fccTesting  = require('./freeCodeCamp/fcctesting.js');
 const app         = express();
-
-const bcrypt = require('bcrypt');
-
 fccTesting(app);
 const saltRounds = 12;
 const myPlaintextPassword = 'sUperpassw0rd!';
 const someOtherPlaintextPassword = 'pass123';
-
-
-app.get('/', (req, res) => {
-  res.send('OK');
-});
-
-app.get('/package.json', (req, res) => {
-  res.sendFile(__dirname + '/package.json');
-});
-
-app.get('/server.js', (req, res) => {
-  res.sendFile(__dirname + '/server.js');
-});
 
 
 //START_ASYNC -do not remove notes, place code between correct pair of notes.
@@ -41,8 +20,6 @@ app.get('/server.js', (req, res) => {
 
 
 //END_SYNC
-
-
 
 
 
