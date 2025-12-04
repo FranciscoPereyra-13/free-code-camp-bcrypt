@@ -1,5 +1,7 @@
 'use strict';
 
+console.log("FCC URL CHECK -", process.env.RENDER_EXTERNAL_URL || "local");
+
 console.log("🔥 ESTE ES MI REPO REAL (infosec-free-code-camp-app) 🔥");
 
 const express     = require('express');
