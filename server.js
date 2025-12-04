@@ -16,6 +16,8 @@ app.get('/', (req, res) => {
   res.send('OK');
 });
 
+console.log("🔥 FCC SHOULD SEE THIS - bcrypt test");
+
 //START_ASYNC -do not remove notes, place code between correct pair of notes.
 
 
