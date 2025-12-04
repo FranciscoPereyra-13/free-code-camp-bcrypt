@@ -21,6 +21,14 @@ app.get('/', (req, res) => {
   res.send('OK');
 });
 
+app.get('/package.json', (req, res) => {
+  res.sendFile(__dirname + '/package.json');
+});
+
+app.get('/server.js', (req, res) => {
+  res.sendFile(__dirname + '/server.js');
+});
+
 
 //START_ASYNC -do not remove notes, place code between correct pair of notes.
 
