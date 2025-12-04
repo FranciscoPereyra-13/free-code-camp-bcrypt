@@ -18,7 +18,7 @@ const bcrypt = require('bcrypt');
 //END_ASYNC
 
 //START_SYNC
-
+const bcrypt = require('bcrypt');
 
 //END_SYNC
 
