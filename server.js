@@ -19,7 +19,6 @@ bcrypt.hash(myPlaintextPassword, saltRounds, function(err, hash) {
 //END_ASYNC
 
 //START_SYNC
-var bcrypt = require('bcrypt');
 
 var hash = bcrypt.hashSync(myPlaintextPassword, saltRounds);
 console.log(hash);
